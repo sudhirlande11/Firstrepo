@@ -1,0 +1,258 @@
+@{
+    // Standalone Razor view (no app layout required)
+    Layout = null;
+    ViewData["Title"] = "Datenschutzhinweis | Deutsche Telekom Clinical Solutions GmbH";
+}
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous" />
+
+    <style>
+
+        .tc-terms-of-use {
+            background-color: #f0f3f8;
+            font-size: 13px;
+            color: #4b4b4b;
+        }
+
+        .terms-of-use-container h1 {
+            font-size: 18px;
+        }
+
+        .terms-of-use-container h2 {
+            font-size: 15px;
+        }
+
+        .terms-of-use-container h3 {
+            font-size: 13px;
+        }
+
+        .terms-of-use-container .section-title {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .terms-of-use-container .policy-card {
+            background: #ffffff;
+            border-radius: 4px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body class="tc-terms-of-use">
+
+    <main class="container terms-of-use-container my-2">
+        <div class="policy-card">
+
+            <h1 class="mb-4">Datenschutzhinweis</h1>
+
+            <p>
+                Der Schutz Ihrer persönlichen Daten hat für die <strong>Deutsche Telekom Clinical Solutions GmbH</strong> einen hohen Stellenwert. Es ist uns wichtig, Sie darüber zu informieren, welche persönlichen Daten erfasst werden, wie diese verwendet werden und welche Gestaltungsmöglichkeiten Sie dabei haben.
+            </p>
+
+            <!-- Section 1 -->
+            <h2 class="section-title">1) Welche Daten werden erfasst, wie werden sie verwendet und wie lange werden sie gespeichert?</h2>
+
+            <h3 class="mt-3">
+                a) Erforderliche Verarbeitungen bei der Erbringung des digitalen Dienstes<br>
+                <small class="text-muted">(Art. 6 Abs. 1c DSGVO, §25 Abs. 2 Nr. 2 TTDSG)</small>
+            </h3>
+
+            <ul>
+                <li>
+                    Bei der Nutzung <strong>TrialComplete</strong>, im folgenden digitaler Dienst genannt: Es handelt sich um ein spezialisiertes System zur Datenerfassung und Prozesssteuerung in klinischen Studien, das speziell entwickelt wurde, um die Anforderungen der Phase-I/IIa-Studienstandorte zu erfüllen. Die gespeicherten Daten müssen gemäß gesetzlichen Vorschriften (z. B. CTR, MDR) gespeichert werden. TrialComplete wird im Rahmen mit Vertragspartnern eingesetzt, welche die Einwilligung für die Datenverarbeitung sicherstellen und die Speicherdauer verantworten und umsetzen.
+                </li>
+            </ul>
+
+            <h3 class="mt-3">
+                b) Verarbeitungen bei der Erbringung des digitalen Dienstes, die auf Basis des berechtigten Interesses erfolgen<br>
+                <small class="text-muted">(Art. 6 Abs. 1 f DSGVO)</small>
+            </h3>
+
+            <ul>
+                <li>
+                    Wenn Sie unseren digitalen Dienst nutzen, verzeichnen unsere Server vorübergehend den Domain-Namen oder die IP- Adresse Ihres Endgerätes sowie weitere Daten, wie z. B. die angefragten Inhalte oder den Antwort-Code.
+                </li>
+                <li>
+                    Die protokollierten Daten werden ausschließlich für Zwecke der Datensicherheit, insbesondere zur Abwehr von Angriffsversuchen auf unseren Server verwendet. Sie werden weder für die Erstellung von individuellen Anwenderprofilen verwendet noch an Dritte weitergegeben und werden nach spätestens 7 Tagen gelöscht. Die statistische Auswertung anonymisierter Datensätze behalten wir uns vor.
+                </li>
+            </ul>
+
+            <!-- Section 2 -->
+            <h2 class="section-title">2) Berechtigungen für Zugriffe auf Daten und Funktionen des Endgerätes durch den digitalen Dienst</h2>
+
+            <p>
+                Um den digitalen Dienst auf Ihrem Endgerät nutzen zu können, muss dieser auf verschiedene Funktionen und Daten Ihres Endgeräts zugreifen können. Dazu ist es erforderlich, dass Sie bestimmte Berechtigungen erteilen (Art. 6 Abs. 1a DSGVO).
+            </p>
+
+            <p>
+                Die Berechtigungen sind von den verschiedenen Herstellern unterschiedlich programmiert. So können z. B. Einzelberechtigungen zu Berechtigungskategorien zusammengefasst sein und Sie können auch nur der Berechtigungskategorie insgesamt zustimmen.
+            </p>
+
+            <p>
+                Bitte beachten Sie, dass Sie im Falle eines Widerspruchs einer oder mehrerer Berechtigungen gegebenenfalls nicht sämtliche Funktionen unseres digitalen Dienstes nutzen können.
+            </p>
+
+            <p>
+                Soweit Sie Berechtigungen erteilt haben, nutzen wir diese nur im nachfolgend beschriebenen Umfang:
+            </p>
+
+            <h3 class="mt-3">a) Weitere Berechtigungen</h3>
+            <p>
+                Der digitale Dienst benötigt Zugriff auf für Cookies zu folgendem Zweck zentrale Funktionen – zum Beispiel die sichere Anmeldung und das Navigieren auf der Seite.
+            </p>
+
+            <!-- Section 3 -->
+            <h2 class="section-title">3) Welche Rechte habe ich?</h2>
+
+            <p>Sie haben das Recht,</p>
+
+            <ul>
+                <li>
+                    a) Auskunft zu verlangen zu Kategorien der verarbeiteten Daten, Verarbeitungszwecken, etwaigen Empfängern der Daten, der geplanten Speicherdauer (Art. 15 DSGVO);
+                </li>
+                <li>
+                    b) die Berichtigung bzw. Ergänzung unrichtiger bzw. unvollständiger Daten zu verlangen (Art. 16 DSGVO);
+                </li>
+                <li>
+                    c) eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen (Art. 7 Abs. 3 DSGVO);
+                </li>
+                <li>
+                    d) einer Datenverarbeitung, die aufgrund eines berechtigten Interesses erfolgen soll, aus Gründen zu widersprechen, die sich aus Ihrer besonderen Situation ergeben (Art 21 Abs. 1 DSGVO), unter Angabe dieser Gründe jederzeit für die Zukunft zu widersprechen. Einer Datenverarbeitung für Zwecke der Direktwerbung können Sie jederzeit ohne Angabe dieser Gründe widersprechen (Art. 21 Abs. 2, 3 DSGVO);
+                </li>
+                <li>
+                    e) in bestimmten Fällen im Rahmen des Art. 17 DSGVO die Löschung von Daten zu verlangen - insbesondere soweit die Daten für den vorgesehenen Zweck nicht mehr erforderlich sind bzw. unrechtmäßig verarbeitet werden, oder Sie Ihre Einwilligung gemäß oben (c) widerrufen oder einen Widerspruch gemäß oben (d) erklärt haben;
+                </li>
+                <li>
+                    f) unter bestimmten Voraussetzungen die Einschränkung von Daten zu verlangen, soweit eine Löschung nicht möglich bzw. die Löschpflicht streitig ist (Art. 18 DSGVO);
+                </li>
+                <li>
+                    g) auf Datenübertragbarkeit, d.h. Sie können Ihre Daten, die Sie uns bereitgestellt haben, in einem gängigen maschinenlesbaren Format, wie z.B. CSV, erhalten und ggf. an andere übermitteln (Art. 20 DSGVO;)
+                </li>
+                <li>
+                    h) sich bei der zuständigen Aufsichtsbehörde über die Datenverarbeitung zu beschweren (für Telekommunikationsverträge: Bundesbeauftragter für den Datenschutz und die Informationsfreiheit; im Übrigen: Landesbeauftragte für den Datenschutz und die Informationsfreiheit Nordrhein-Westfalen).
+                </li>
+            </ul>
+
+            <!-- Section 4 -->
+            <h2 class="section-title">4) An wen gibt die Telekom meine Daten weiter?</h2>
+
+            <p>
+                An Auftragsverarbeiter, das sind Unternehmen, die wir im gesetzlich vorgesehenen Rahmen mit der Verarbeitung von Daten beauftragen, Art. 28 DSGVO (Dienstleister, Erfüllungsgehilfen). Die Telekom bleibt auch in dem Fall weiterhin für den Schutz Ihrer Daten verantwortlich. Wir beauftragen Unternehmen insbesondere in folgenden Bereichen: IT, Vertrieb, Marketing, Finanzen, Beratung, Kundenservice, Personalwesen, Logistik, Druck.
+            </p>
+
+            <p>
+                An Kooperationspartner, die in eigener Verantwortung Leistungen für Sie bzw. im Zusammenhang mit Ihrem Telekom-Vertrag erbringen. Dies ist der Fall, wenn Sie Leistungen solcher Partner bei uns beauftragen oder wenn Sie in die Einbindung des Partners einwilligen oder wenn wir den Partner aufgrund einer gesetzlichen Erlaubnis einbinden.
+            </p>
+
+            <p>
+                Aufgrund gesetzlicher Verpflichtung: In bestimmten Fällen sind wir gesetzlich verpflichtet, bestimmte Daten an die anfragende staatliche Stelle zu übermitteln.
+            </p>
+
+            <!-- Section 5 -->
+            <h2 class="section-title">5) Wo werden meine Daten verarbeitet?</h2>
+
+            <p>
+                Ihre Daten werden in Deutschland und im europäischen Ausland verarbeitet.
+            </p>
+
+            <p>
+                Teilweise findet eine Verarbeitung Ihrer Daten auch in Ländern außerhalb der Europäischen Union (also in sog. Drittstaaten) statt, derzeit etwa:
+            </p>
+
+            <p>
+                Lediglich Administratoren Zugriffe im Rahmen eines technischen Supports sind aus Indien möglich.
+            </p>
+
+            <p>
+                Im Übrigen gilt: Findet eine Datenverarbeitung in Drittstaaten statt, geschieht dies, soweit Sie hierin ausdrücklich eingewilligt haben oder es für unsere Leistungserbringung Ihnen gegenüber erforderlich ist oder es gesetzlich vorgesehen ist (Art.49 DSGVO).
+            </p>
+
+            <p>
+                Eine Verarbeitung Ihrer Daten in Drittstaaten erfolgt nur, soweit durch bestimmte Maßnahmen sichergestellt ist, dass hierfür ein angemessenes Datenschutzniveau besteht (z. B. Angemessenheitsbeschluss der EU-Kommission oder sog. geeignete Garantien, Art. 44ff. DSGVO, (<a href="https://www.telekom.de/datenschutzhinweise/download/060.pdf" target="_blank">vgl. hier</a>).
+            </p>
+
+            <!-- Section 6 -->
+            <h2 class="section-title">6) Wer ist verantwortlich für die Datenverarbeitung? Wer ist mein Ansprechpartner, wenn ich Fragen zum Datenschutz bei der Telekom habe?</h2>
+
+            <p>
+                Datenverantwortliche ist die Deutsche Telekom Clinical Solutions GmbH, Friedrich-Ebert-Allee 140, 53113 Bonn. Bei Fragen können Sie sich an unseren Kundenservice wenden oder an unseren Datenschutzbeauftragten, Herrn Dr. Claus D. Ulmer, Friedrich-Ebert-Allee 140, 53113 Bonn, <a href="mailto:datenschutz@telekom.de">datenschutz@telekom.de</a>.
+            </p>
+
+            <p class="text-muted">
+                Stand des Datenschutzhinweises <strong>23-10-2025</strong>
+            </p>
+
+            <hr class="my-5" />
+
+            <!-- Imprint -->
+            <h1 class="mb-4">Imprint</h1>
+
+            <p>
+                <strong>Deutsche Telekom Clinical Solutions GmbH</strong>
+            </p>
+
+            <p>
+                <strong>Hauptsitz:</strong><br />
+                Friedrich-Ebert-Allee 140, 53113 Bonn
+            </p>
+
+            <p>
+                E-mail: <a href="mailto:info@telekom-healthcare.com">info@telekom-healthcare.com</a>
+            </p>
+
+            <p>
+                <strong>Geschäftsanschrift:</strong><br />
+                Sternengasse 14-16, 50676 Köln
+            </p>
+
+            <p>
+                Phone: +49 221 339 814 552
+            </p>
+
+            <p>
+                <strong>Geschäftsführung:</strong><br />
+                Janine Haschke, Dr. Malte Debus
+            </p>
+
+            <p>
+                <strong>Handelsregister:</strong><br />
+                Amtsgericht Bonn HRB 13278
+            </p>
+
+            <p>
+                Sitz der Gesellschaft: Bonn
+            </p>
+
+            <p>
+                <strong>Umsatzsteuer-Identifikationsnummer:</strong> DE254935158
+            </p>
+
+            <p>
+                <strong>Aufsichtsbehörde:</strong><br />
+                Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen<br />
+                Tulpenfeld 4, 53113 Bonn
+            </p>
+
+        </div>
+    </main>
+
+    <footer class="py-2">
+        <div class="container text-center text-muted small">
+            © @DateTime.UtcNow.Year Deutsche Telekom Clinical Solutions GmbH
+        </div>
+    </footer>
+    </body>
+</html>
